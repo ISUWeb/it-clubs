@@ -1,5 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #cfd8dc;
+}
+
 body {
     margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: sans-serif;
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .container {
@@ -36,13 +48,31 @@ button:hover {
     background: #37474f;
     color: white;
     transition-duration: .2s;
+    cursor: pointer;
 }
 
 .header {
+    padding: 5em;
     text-align: center;
+}
+
+.header h1 {
+    margin: 0;
 }
 
 .header p {
     max-width: 800px;
     margin: 2em auto;
+}
+
+.about {
+    background: #37474f;
+    color:white;
+    padding: 5em;
+}
+
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
 }
