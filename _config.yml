@@ -1,5 +1,5 @@
-source: app
-destination: web
+source: src
+destination: bin
 
 permalink: pretty
 encoding: utf-8
