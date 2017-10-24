@@ -1,5 +1,4 @@
 source: src
-destination: bin
 
 permalink: pretty
 encoding: utf-8
