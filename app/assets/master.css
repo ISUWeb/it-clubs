@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.container {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+button {
+    padding: .5em 1.5em;
+    border: 3px solid #37474f;
+    border-radius: 2px;
+    background: white;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    transition-duration: .2s;    
+}
+
+button:hover {
+    background: #37474f;
+    color: white;
+    transition-duration: .2s;
+}
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    max-width: 800px;
+    margin: 2em auto;
+}
