@@ -3,10 +3,11 @@
 }
 
 ::selection {
-    background: #cfd8dc;
+    background: #C5CAE9;
 }
 
 body {
+    background: transparent;
     margin: 0;
 }
 
@@ -15,7 +16,7 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, sans-serif;
+    font-family: sans-serif;
     font-weight: lighter;
 }
 
@@ -36,27 +37,42 @@ p {
 
 button {
     padding: .5em 1.5em;
-    border: 3px solid #37474f;
+    border: 3px solid white;
     border-radius: 2px;
-    background: white;
+    background: transparent;
+    color: white;
     font-size: 1.3em;
     text-transform: uppercase;
     transition-duration: .2s;    
 }
 
 button:hover {
-    background: #37474f;
+    background: #5c6bc0;
+    border-color: #5c6bc0;
     color: white;
     transition-duration: .2s;
     cursor: pointer;
 }
 
 .header {
+    background: #3f51b5;
+    color: white;
     padding: 5em;
     text-align: center;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
+            clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
+}
+
+h1, p, button {
+    animation: 0.8s ease 0s 1 normal forwards fadeIn;
+    animation-fill-mode: both;
+    animation-delay: .2s;    
 }
 
 .header h1 {
+    text-shadow: 0 -1px #303f9f, 0 -2px #303f9f, 0 -3px #303f9f, 0 -4px #303f9f, 0 -5px #303f9f, 0 -6px #303f9f, 0 -7px #303f9f, 0 -8px #303f9f;    
+    color: white;
+    font-size: 5em;
     margin: 0;
 }
 
@@ -66,13 +82,26 @@ button:hover {
 }
 
 .about {
-    background: #37474f;
-    color:white;
+    color: #263238; 
     padding: 5em;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 
 .about p {
     text-align: center;
     max-width: 800px;
     margin: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);        
+    }
 }
