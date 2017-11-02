@@ -9,19 +9,14 @@
 body {
     background: transparent;
     margin: 0;
+    font-family: "Lato", sans-serif;    
 }
 
 h1 {
     font-size: 3.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
-    font-weight: lighter;
-}
-
 p {
-    font-family: sans-serif;
     line-height: 1.5;
     font-size: 1.3em;
 }
@@ -57,7 +52,7 @@ button:hover {
 .header {
     background: #3f51b5;
     color: white;
-    padding: 5em;
+    padding: 5em 2em;
     text-align: center;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
             clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
@@ -70,7 +65,7 @@ h1, p, button {
 }
 
 .header h1 {
-    text-shadow: 0 -1px #303f9f, 0 -2px #303f9f, 0 -3px #303f9f, 0 -4px #303f9f, 0 -5px #303f9f, 0 -6px #303f9f, 0 -7px #303f9f, 0 -8px #303f9f;    
+    text-shadow: 0 -5px 0 #303f9f, 0 -7px 0 #303f9f; 
     color: white;
     font-size: 5em;
     margin: 0;
@@ -83,9 +78,7 @@ h1, p, button {
 
 .about {
     color: #263238; 
-    padding: 5em;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
-    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    padding: 5em 2em;
 }
 
 .about p {
