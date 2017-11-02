@@ -12,10 +12,6 @@ body {
     font-family: "Lato", sans-serif;    
 }
 
-h1 {
-    font-size: 3em;
-}
-
 p {
     line-height: 1.5;
     font-size: 1.2em;
@@ -65,7 +61,7 @@ h1, p, button {
 .header h1 {
     text-shadow: 0 -5px 0 #303f9f, 0 -7px 0 #303f9f; 
     color: white;
-    font-size: 5em;
+    font-size: 4em;
     margin: 0;
 }
 
