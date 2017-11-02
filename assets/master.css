@@ -13,12 +13,12 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 p {
     line-height: 1.5;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .container {
@@ -54,14 +54,12 @@ button:hover {
     color: white;
     padding: 5em 2em;
     text-align: center;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
-            clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);    
 }
 
 h1, p, button {
     animation: 0.8s ease 0s 1 normal forwards fadeIn;
     animation-fill-mode: both;
-    animation-delay: .2s;    
+    visibility: visible;
 }
 
 .header h1 {
