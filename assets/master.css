@@ -28,8 +28,8 @@ p {
 
 button {
     padding: .5em 1.5em;
-    border: 3px solid white;
-    border-radius: 2px;
+    border: 2px solid white;
+    border-radius: 5px;
     background: transparent;
     color: white;
     font-size: 1.3em;
@@ -38,15 +38,15 @@ button {
 }
 
 button:hover {
-    background: #5c6bc0;
-    border-color: #5c6bc0;
+    background: #c62828;
+    border-color: #c62828;
     color: white;
     transition-duration: .2s;
     cursor: pointer;
 }
 
 .header {
-    background: #3f51b5;
+    background: #e53935;
     color: white;
     padding: 5em 2em;
     text-align: center;
@@ -59,7 +59,7 @@ h1, p, button {
 }
 
 .header h1 {
-    text-shadow: 0 -5px 0 #303f9f, 0 -7px 0 #303f9f; 
+    text-shadow: 0 -5px 0 #c62828, 0 -7px 0 #c62828; 
     color: white;
     font-size: 4em;
     margin: 0;
