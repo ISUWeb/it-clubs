@@ -9,7 +9,9 @@
 body {
     background: transparent;
     margin: 0;
-    font-family: "Lato", sans-serif;    
+    font-family: "Lato", sans-serif; 
+    --primary: #c00;
+    --secondary: #900;   
 }
 
 p {
@@ -38,15 +40,15 @@ button {
 }
 
 button:hover {
-    background: #c62828;
-    border-color: #c62828;
+    background: var(--secondary);
+    border-color: var(--secondary);
     color: white;
     transition-duration: .2s;
     cursor: pointer;
 }
 
 .header {
-    background: #e53935;
+    background: var(--primary);
     color: white;
     padding: 5em 2em;
     text-align: center;
@@ -59,7 +61,7 @@ h1, p, button {
 }
 
 .header h1 {
-    text-shadow: 0 -5px 0 #c62828, 0 -7px 0 #c62828; 
+    text-shadow: 0 -5px 0 var(--secondary); 
     color: white;
     font-size: 4em;
     margin: 0;
