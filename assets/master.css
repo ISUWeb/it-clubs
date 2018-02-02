@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-::selection {
-    background: #C5CAE9;
-}
-
 body {
     background: transparent;
     margin: 0;
