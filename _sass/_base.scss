@@ -3,25 +3,13 @@
 }
 
 body {
-    background: transparent;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif; 
-    --primary: #c00;
-    --secondary: #900;   
 }
 
 p {
     line-height: 1.5;
     font-size: 1.2em;
-}
-
-.container {
-    width: 90%;
-    margin: 1em auto;
-}
-
-.centered {
-    text-align: center;
 }
 
 button {
@@ -43,17 +31,20 @@ button:hover {
     cursor: pointer;
 }
 
+.container {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.centered {
+    text-align: center;
+}
+
 .header {
     background: var(--primary);
     color: white;
     padding: 5em 2em;
     text-align: center;
-}
-
-h1, p, button {
-    animation: 0.8s ease 0s 1 normal forwards fadeIn;
-    animation-fill-mode: both;
-    visibility: visible;
 }
 
 .header h1 {
@@ -77,16 +68,4 @@ h1, p, button {
     text-align: center;
     max-width: 800px;
     margin: auto;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);        
-    }
 }
