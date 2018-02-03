@@ -1,0 +1,31 @@
+.clubs {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.clubs .location {
+    display: block;
+    text-transform: uppercase;
+    color: var(--s-dark);
+    font-size: .9em;
+}
+
+.club {
+    padding: 2em;
+}
+
+.club .club-name {
+    font-weight: bold;
+    background: linear-gradient(to top, var(--p-light) 20%, transparent 20%);
+    margin: 5px 0;
+    font-size: 2em;
+}
+
+.club p {
+    margin: 5px 0;
+}
+
+.location {
+    text-transform: uppercase;
+    color: var(--secondary);
+}
