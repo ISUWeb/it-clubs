@@ -1,4 +1,5 @@
 .sections {
+    overflow-x: scroll;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
@@ -6,6 +7,7 @@
 }
 
 .subsection {
+    min-width: 250px;
     padding: 1em;
     color: white;
     text-align: center;

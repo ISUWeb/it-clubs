@@ -1,6 +1,8 @@
-.clubs {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
+@media (min-width: 800px) {
+    .clubs {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
 }
 
 .clubs .location {
