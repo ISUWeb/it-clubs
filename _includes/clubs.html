@@ -1,32 +1,9 @@
 <div class="clubs container">
+    {% for club in site.clubs %}
     <div class="club">
-        <span class="location">Thursdays at 8 in STV 401-A</span>
-        <span class="club-name">Game Development</span>
-        <p>Learn the basics of game development and create your own games from scratch. Sometimes we do virtual reality, no biggie.</p>
+        <span class="location">{{ club.meeting }}</span>
+        <span class="club-name">{{ club.name }}</span>
+        <p>{{ club.content }}</p>
     </div>
-    <div class="club">
-        <span class="location">TBD</span>
-        <span class="club-name">Women in Technology</span>
-        <p>Decription</p> 
-    </div>
-    <div class="club">
-        <span class="location">Mondays at 8 in OU 129</span>
-        <span class="club-name">Web Development</span> 
-        <p>Learn the basics of web developement.</p>
-    </div>
-    <div class="club">
-        <span class="location">Wednesdays at 8 in OU 129</span>
-        <span class="club-name">ISUSec</span> 
-        <p>Break stuff.</p>
-    </div>
-    <div class="club">
-        <span class="location">Tues & Thurs at 7 in OU 129</span>
-        <span class="club-name">Competitive Programming</span> 
-        <p>Develop some serious programming skills.</p>
-    </div>
-    <div class="club">
-        <span class="location">TBD</span>
-        <span class="club-name">Redbird Hacks</span> 
-        <p>Hack it till you make it.</p>
-    </div>
+    {% endfor %}
 </div>

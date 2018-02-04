@@ -1,2 +1,4 @@
 permalink: pretty
 encoding: utf-8
+collections:
+  clubs:
